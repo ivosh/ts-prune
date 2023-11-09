@@ -1,0 +1,276 @@
+repo_name: ivosh/ts-prune
+report_id: 51a71e4d8e655857a0667353e139b945
+repo_type: Public
+timestamp: '2023-11-09T11:06:05+00:00'
+requested_by: ivosh
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-26 22:48:43.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-06-20 22:16:20.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-26 22:48:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-26 22:48:43.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-26 22:48:43.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-26 22:48:43.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-06-20 11:19:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.136
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: "@types/minimist"
+  description: TypeScript definitions for minimist
+  package_url: https://www.npmjs.com/@types/minimist
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16976/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 11.13.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 1.12.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-07-20 13:46:34.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-04-27 01:03:17.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 0.2.4
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2020-7598
+    cve_url: https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.2.1
+  - name: 'Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution)'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7fhm-mqm4-2wp7
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.2
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 24.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nadeesha Cabral
+  last_updated_on: 2019-07-06 06:18:28.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2019-06-21 22:39:53.000000000 Z
